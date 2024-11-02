@@ -1,0 +1,4 @@
+HOTEL HR001 HotelParadise 150.00
+HOTEL HR002 HotelOceanView 100.00
+EVENT EV001 ConcertNight 80.00
+EVENT EV002 ArtExpo 120.00

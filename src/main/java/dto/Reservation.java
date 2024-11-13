@@ -4,6 +4,7 @@ import constants.ReservationStatus;
 import constants.ReservationType;
 
 public abstract class Reservation {
+
     private String id;
     private String name;
     private final ReservationType type;

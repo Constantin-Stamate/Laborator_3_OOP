@@ -1,6 +1,5 @@
 package constants;
 
 public enum ReservationType {
-    EVENT,
-    HOTEL
+    HOTEL, EVENT
 }

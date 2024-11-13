@@ -4,6 +4,7 @@ import constants.ReservationType;
 import java.math.BigDecimal;
 
 public class HotelReservation extends Reservation {
+
     private BigDecimal roomRate;
 
     public HotelReservation(String id, String nume, ReservationType type, BigDecimal roomRate) {

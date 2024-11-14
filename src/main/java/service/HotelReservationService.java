@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class HotelReservationService implements ReservationService {
+
     ReservationRepository reservationRepository;
 
     public HotelReservationService(ReservationRepository reservationRepository) {

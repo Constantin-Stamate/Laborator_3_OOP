@@ -57,7 +57,7 @@ public class Main {
     }
 
     public static void printReservations() {
-        System.out.println("Remaining Hotel Reservations:");
+        System.out.println("Remaining Hotel Reservations :");
         hotelService.getAllReservations().forEach(reservation -> {
             if (reservation instanceof HotelReservation) {
                 HotelReservation hotelReservation = (HotelReservation) reservation;
@@ -68,11 +68,11 @@ public class Main {
             }
         });
 
-        System.out.println("\nRemaining Event Reservations:");
+        System.out.println("\nRemaining Event Reservations :");
         eventService.getAllReservations().forEach(reservation -> {
             if (reservation instanceof EventReservation) {
                 EventReservation eventReservation = (EventReservation) reservation;
-                System.out.println("ID: " + eventReservation.getId() +
+                System.out.println("ID : " + eventReservation.getId() +
                         ", Name: " + eventReservation.getName() +
                         ", Cost: " + eventReservation.getCost() +
                         ", Status: " + eventReservation.getStatus());
